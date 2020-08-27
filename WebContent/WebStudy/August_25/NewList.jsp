@@ -26,15 +26,23 @@ margin-top:100px;
 <body>
 	<div class="container">
 		<div class="list-box">
-		<table class="table table-border">
-			<thead class="thead-dark">
-			<tr>
-				<th>번호</th>
-				<th>제목</th>
-				<th>글쓴이</th>
-				<th>작성일시</th>
-			</tr>
-			</thead>
+			<div class ="card">
+			<div class="card-header">
+			<div class="float-right">
+			<a href="/WebStudy/August_27/NewAdd.jsp" type="button" class="btn btn-primary">글쓰기</a>
+			</div>
+		</div>
+		<div class="card-body">
+		</div>
+			<table class="table table-hover">
+				<thead class="thead-dark">
+					<tr>
+					<th>번호</th>
+					<th>제목</th>
+					<th>글쓴이</th>
+					<th>작성일시</th>
+					</tr>
+				</thead>
 			<tbody>
 			<%  SimpleDateFormat format = new SimpleDateFormat ("yyyy-mm-dd HH:mm:ss");
 				String name[] = {"사카다 킨토키", "카구라", "시무라 신파치", "사다하루", "콘도 이사오", "히지카타 토시로", "오키타 소고", "야마자키 사가루", "카츠라 코타로", "엘리자베스", "타카스기 신스케", "카무이"};
@@ -51,7 +59,7 @@ margin-top:100px;
 			%>
 				<tr>
 				<td><%=i %></td>
-				<td><a href= "firstProject/WebStudy/August_25/New03.jsp"> <%= randomTitle %> </td>
+				<td><a href= "/WebStudy/August_27/NewView.jsp"> <%= randomTitle %></a></td>
 				<td><%=randomName %></td>
 				<td><%=today %></td>
 				</tr>

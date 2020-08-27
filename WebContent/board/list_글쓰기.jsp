@@ -26,7 +26,8 @@ body {
 </head>
 <body>
 	<div class="container">
-	<div class="list-box">
+	
+		<div class="list-box">
 		<div class ="card">
 		<div class="card-header">
 		<a href="/board/add.jsp type="button" class="btn btn-primary">글쓰기</a>
@@ -66,6 +67,5 @@ body {
 			</tbody>
 		</div>	
 	</div>
-				
 </body>
 </html>

@@ -38,7 +38,7 @@ body {
 					<div class="card-footer">
 						<button type="button" class="btn btn-primary">로그인</button>
 						<div class="float-right">
-						<button type="button" class="btn btn-light"><a href="/firstProject/WebStudy/August_25/New02.jsp">회원가입</a></button>
+						<button type="button" class="btn btn-light"><a href="/WebStudy/August_25/NewRegistor.jsp">회원가입</a></button>
 						</div>
 					</div>
 				</div>

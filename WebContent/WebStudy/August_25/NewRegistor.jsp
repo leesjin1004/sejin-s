@@ -47,7 +47,7 @@
 					<div class="card-footer">
 						<button type="button" class="btn btn-primary">회원가입</button>
 						<div class="float-right">
-						<button type="button" class="btn btn-light"><a href="/firstProject/WebStudy/August_25/New01.jsp">로그인</a></button>
+						<button type="button" class="btn btn-light"><a href="/WebStudy/August_25/NewLogin.jsp">로그인</a></button>
 						</div>
 					</div>
 				</div>

@@ -22,17 +22,13 @@ body {
 	margin-top: 100px;
 }
 </style>
-<title>게시판 - 목록</title>
+<title>게시판 - 보기</title>
 </head>
 <body>
 	<div class="container">
-	<div class="list-box">
-		<div class ="card">
-		<div class="card-header">
-		<a href="/board/add.jsp type="button" class="btn btn-primary">글쓰기</a>
-		</div>
-		<div class="card-body"></div>
-		<table class="table table-hover">
+	
+		<div class="list-box">
+		<table class="table table-border">
 			<thead class="thead-dark">
 			<tr>
 				<th>번호</th>
@@ -56,7 +52,7 @@ body {
 			%>
 				<tr>
 				<td><%=i%></td>
-				<td><a href="/board/view2.jsp"> <%=randomTitle %></a></td>   <!-- 임의로 view파일을 넣어서 작성한 글 페이지로 넘어가도록! -->
+				<td><a href="/board/view.jsp"> <%=randomTitle %></a></td>   <!-- 임의로 view파일을 넣어서 작성한 글 페이지로 넘어가도록! -->
 				<td><%=randomName %></td>
 				<td><%=today %></td>
 				</tr>
